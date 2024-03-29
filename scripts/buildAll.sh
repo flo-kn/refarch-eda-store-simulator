@@ -1,7 +1,7 @@
 #!/bin/bash
 scriptDir=$(dirname $0)
 
-IMAGE_NAME=quay.io/ibmcase/eda-store-simulator
+IMAGE_NAME=docker.io/effelow/eda-store-simulator
 if [[ $# -eq 1 ]]
 then
   TAG=$1
